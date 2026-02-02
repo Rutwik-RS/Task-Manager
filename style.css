@@ -85,10 +85,10 @@ li {
   margin-bottom: 8px;
 }
 
-li.completed span {
+/* li.completed span {
   text-decoration: line-through;
-  color: gray;
-}
+  color: red;
+} */
 
 li button {
   background: crimson;
@@ -101,4 +101,8 @@ li button {
   margin-top: 10px;
   font-size: 14px;
   color: #555;
+}
+li div {
+  display: flex;
+  gap: 6px;
 }
